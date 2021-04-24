@@ -73,6 +73,12 @@ button:hover {
   padding-left: 5%;
   font-weight: 600;
 }
+.mob-err {
+  display: none;
+}
+.dsk-err {
+  display: block;
+}
 .image {
   margin-top: 11%;
 }
@@ -110,4 +116,30 @@ button:hover {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .container {
+    margin: 10% 6%;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 9% 0% 6%;
+  }
+  .search {
+    flex-direction: column;
+  }
+  input[type="text"],
+  button {
+    width: 100%;
+    margin: 2% 0%;
+  }
+  .social-link {
+    margin: 30% 0% 5%;
+  }
+  .mob-err {
+    display: block;
+  }
+  .dsk-err {
+    display: none;
+  }
 }
