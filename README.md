@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop-img](./screenshot/desktop.jpng)
+![desktop-img](./screenshot/desktop.png)
 ![mobile-img](./screenshot/mobile.png)
 
 ### Links
